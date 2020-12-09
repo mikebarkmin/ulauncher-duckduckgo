@@ -13,8 +13,6 @@ https://github.com/mikebarkmin/ulauncher-duckduckgo
 
 ## Developer
 
-### 
-
 ### Run Test
 
 Currently doctest is used for the `functions` module. To run the tests execute the following command:

@@ -17,12 +17,14 @@ class DuckDuckGoExtension(Extension):
 class KeywordQueryEventListener(EventListener):
     def on_event(self, event, extension):
         query = event.get_argument() or str()
+        lang = extension.preferences["duckduckgo_search_language"]
 
         if len(query.strip()) == 0:
             return RenderResultListAction(no_input_item())
 
         return RenderResultListAction(
-            show_suggestion_items([query] + generate_suggestions(query))
+            show_suggestion_items(
+                [query] + generate_suggestions(query, lang=lang))
         )
 
 
