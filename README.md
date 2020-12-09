@@ -1,6 +1,6 @@
 # DuckDuckGo Ulauncher extension
 
-![Screenshot](screenshot.jpg)
+![Screenshot](screenshot.png)
 
 This Ulauncher extension enables you to search DuckDuckGo.
 
