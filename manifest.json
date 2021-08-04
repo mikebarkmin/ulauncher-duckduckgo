@@ -21,6 +21,17 @@
       "name": "Search Language",
       "description": "Input your desired ISO language code",
       "default_value": "en-US"
+    },
+    {
+      "id": "duckduckgo_include_instant_answer",
+      "type": "select",
+      "name": "Include Instant Answer",
+      "description": "Choose whether to include instant answer before search suggestions",
+      "default_value": false,
+      "options": [
+        {"value": true, "text": "yes"},
+        {"value": false, "text": "no"}
+      ]
     }
   ]
 }
